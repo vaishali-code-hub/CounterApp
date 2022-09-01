@@ -1,0 +1,48 @@
+body {
+	position: absolute;
+	left: 0%;
+	text-align: center;
+}
+
+.container {
+	justify-content: center;
+	display: flex;
+	height: 100%;
+	text-align: center;
+}
+
+button {
+	width: 90px;
+	height: 60px;
+	font-size: 15px;
+	background-color: rgb(66, 116, 133);
+	color: honeydew;
+	margin-top: 20px;
+}
+
+.counter {
+	font-size: 20px;
+	margin: 40px;
+}
+
+.box-container {
+	display: flex;
+	border-radius: 5px;
+}
+
+.box-container > div.active {
+	background-color: rgb(
+		179,
+		120,
+		160
+	);
+}
+
+.box-container > div {
+	align-items: center;
+	background-color: #f1f1f1;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding: 20px;
+	font-size: 20px;
+}
